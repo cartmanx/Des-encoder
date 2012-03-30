@@ -1,0 +1,51 @@
+﻿Build started 2010-08-30 04:12:09.
+     1>Project "D:\2rok\C++\project01\project01\project01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\project01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cEncode.cpp main.cpp
+         main.cpp
+     1>d:\2rok\c++\project01\project01\main.cpp(47): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+         cEncode.cpp
+     1>d:\2rok\c++\project01\project01\cencode.cpp(40): warning C4805: '^' : unsafe mix of type 'bool' and type 'int' in operation
+     1>d:\2rok\c++\project01\project01\cencode.cpp(66): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(67): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(68): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(69): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(70): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(71): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(132): warning C4805: '^' : unsafe mix of type 'bool' and type 'int' in operation
+     1>d:\2rok\c++\project01\project01\cencode.cpp(145): warning C4101: 'tmp' : unreferenced local variable
+     1>d:\2rok\c++\project01\project01\cencode.cpp(240): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(283): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(337): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(428): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(440): warning C4101: 'tab2' : unreferenced local variable
+     1>d:\2rok\c++\project01\project01\cencode.cpp(466): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(611): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>d:\2rok\c++\project01\project01\cencode.cpp(658): warning C4805: '^' : unsafe mix of type 'bool' and type 'int' in operation
+     1>d:\2rok\c++\project01\project01\cencode.cpp(684): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(685): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(686): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(687): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(688): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(689): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\2rok\c++\project01\project01\cencode.cpp(750): warning C4805: '^' : unsafe mix of type 'bool' and type 'int' in operation
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2rok\C++\project01\Debug\project01.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\project01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\2rok\C++\project01\Debug\project01.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2rok\C++\project01\Debug\project01.lib" /MACHINE:X86 Debug\cEncode.obj
+         Debug\cKey.obj
+         Debug\main.obj
+         LINK : D:\2rok\C++\project01\Debug\project01.exe not found or not built by the last incremental link; performing full link
+         project01.vcxproj -> D:\2rok\C++\project01\Debug\project01.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\2rok\C++\project01\Debug\project01.exe;#1" /manifest Debug\project01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\project01.unsuccessfulbuild".
+         Touching "Debug\project01.lastbuildstate".
+     1>Done Building Project "D:\2rok\C++\project01\project01\project01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.44

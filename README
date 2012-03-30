@@ -1,0 +1,7 @@
+Project started from the implementation of the DES encryption algorithm. Task was described with 3 basic requirements:
+- specifed programming language, C++
+- specifed IDE, Visual Studio
+- output file with .exe extension, which can be run in DOS console
+
+DES algorithm illustration by Orlin Grabbe (http://orlingrabbe.com/des.htm) was my main point of view how DES works. Project evolution was to create simple GUI. For this purpose Qt framework was used, simultaneously moving application to linux platform.
+User can give text message which will be encoded with mandatory 64-bits long key. This encoded file can be transferred without having to worry about reading it by unauthorized persons. File can be decoded only by person which have the right key for it.

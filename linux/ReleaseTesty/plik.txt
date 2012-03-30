@@ -1,0 +1,4 @@
+Plik z danymi
+do
+zaszyfrowania za pomoca algorytmu
+DES!
